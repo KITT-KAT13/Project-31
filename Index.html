@@ -14,12 +14,14 @@
         .navbar {
             background-color: lightgray;
             padding: 10px;
+            text-align: center;
         }
 
         .navbar a {
             margin: 0 10px;
             text-decoration: none;
             color: black;
+            font-weight: bold;
         }
 
         /* Sections */
@@ -31,6 +33,21 @@
         h1,
         h2 {
             margin-bottom: 10px;
+        }
+
+        /* Food Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
@@ -54,22 +71,31 @@
 
     <section id="about">
         <h2>About</h2>
-        <p>My restaurant serves good food and drinks.</p>
+        <p>My restaurant serves delicious meals made from fresh ingredients every day.</p>
     </section>
 
     <section id="menu">
         <h2>Menu</h2>
-        <p>Here you can find our food items.</p>
+        <p>Here you can find our food items like pizza, burgers, pasta, and more.</p>
     </section>
 
     <section id="gallery">
         <h2>Food Gallery</h2>
-        <p>Pictures of our food will go here.</p>
+        <p>Take a look at some of our delicious dishes:</p>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Pizza">
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Burger">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Pasta">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Salad">
+            <img src="https://images.unsplash.com/photo-1553621042-f6e147245754" alt="Sushi">
+            <img src="https://images.unsplash.com/photo-1604147706283-d571684dd3a9" alt="Dessert">
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: myrestaurant@email.com</p>
+        <p>Phone: +1 234 567 890</p>
     </section>
 
 </body>
