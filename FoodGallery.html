@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #fff8dc;
+            /* light gold */
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #adff2f;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .navbar a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Menu.html">Menu</a>
+        <a href="FoodGallery.html">Food Gallery</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+
+    <main class="max-w-6xl mx-auto py-12 px-4 text-center">
+        <h2 class="text-4xl font-bold text-amber-700 mb-8">Food Gallery</h2>
+        <p class="text-gray-600 mb-10">Feast your eyes on some of our customer favorites — made fresh every day!</p>
+
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+            <!-- Each item correctly labeled -->
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3" alt="Margherita Pizza"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Margherita Pizza</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="BeefBurger.jpeg" alt="Beef Burger"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Beef Burger</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="Chicken Alfredo.jpeg" alt="Chicken Alfredo"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Chicken Alfredo</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="CaeserSalad.jpeg" alt="Caesar Salad"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Caesar Salad</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="Chocolate Cake.jpeg" alt="Chocolate Cake"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Chocolate Cake</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="Tomato Soup.jpg" alt="Tomato Soup"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Tomato Soup</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="Ice cream.jpeg" alt="Ice Cream Delight"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Ice Cream Delight</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="Iced Coffee.jpeg" alt="Iced Coffee"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Iced Coffee</div>
+            </div>
+
+            <!-- Added new dishes -->
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="sushi_platter_.webp" alt="Sushi Platter"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Sushi Platter</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="Grilled steak.jpg" alt="Grilled Steak"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Grilled Steak</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="pancakes.jpg" alt="Pancakes"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Pancakes</div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-xl shadow-md">
+                <img src="Smoothie bowl.jpeg" alt="Smoothie Bowl"
+                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white font-semibold text-lg">
+                    Smoothie Bowl</div>
+            </div>
+
+        </div>
+
+     
+    </main>
+</body>
+
+</html>

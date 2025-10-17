@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>My Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: gold;
+        }
+
+        /* Navigation */
+        .navbar {
+            background-color: greenyellow;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar a {
+
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Sections */
+        section {
+            padding: 40px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        /* Food Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Menu.html">Menu</a>
+        <a href="FoodGallery.html">Food Gallery</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+    <!-- Menu Section -->
+    <main class="max-w-6xl mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-amber-700">Our Menu</h2>
+    
+        <!-- Starters -->
+        <section class="mb-12">
+            <h3 class="text-2xl font-semibold text-amber-600 mb-4 border-b pb-2">Starters</h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="flex justify-between">
+                    <span>Garlic Bread</span>
+                    <span class="font-semibold">$4.50</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Caesar Salad</span>
+                    <span class="font-semibold">$6.00</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Tomato Soup</span>
+                    <span class="font-semibold">$5.00</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Bruschetta</span>
+                    <span class="font-semibold">$7.50</span>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Main Courses -->
+        <section class="mb-12">
+            <h3 class="text-2xl font-semibold text-amber-600 mb-4 border-b pb-2">Main Courses</h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="flex justify-between">
+                    <span>Grilled Chicken Alfredo</span>
+                    <span class="font-semibold">$12.00</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Beef Burger & Fries</span>
+                    <span class="font-semibold">$10.50</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Margherita Pizza</span>
+                    <span class="font-semibold">$11.00</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>BBQ Ribs</span>
+                    <span class="font-semibold">$14.50</span>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Desserts -->
+        <section class="mb-12">
+            <h3 class="text-2xl font-semibold text-amber-600 mb-4 border-b pb-2">Desserts</h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="flex justify-between">
+                    <span>Chocolate Lava Cake</span>
+                    <span class="font-semibold">$6.50</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Cheesecake</span>
+                    <span class="font-semibold">$6.00</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Tiramisu</span>
+                    <span class="font-semibold">$7.00</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Ice Cream Sundae</span>
+                    <span class="font-semibold">$5.50</span>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Beverages -->
+        <section>
+            <h3 class="text-2xl font-semibold text-amber-600 mb-4 border-b pb-2">Beverages</h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="flex justify-between">
+                    <span>Fresh Lemonade</span>
+                    <span class="font-semibold">$3.50</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Iced Coffee</span>
+                    <span class="font-semibold">$4.00</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Milkshake</span>
+                    <span class="font-semibold">$4.50</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Bottled Water</span>
+                    <span class="font-semibold">$2.00</span>
+                </div>
+            </div>
+        </section>
+    </main>
+        
+    
